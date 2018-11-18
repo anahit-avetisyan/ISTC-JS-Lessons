@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditional constractions</title>
+</head>
+<body>
+    <script>
+        // If,else and else if  statements: I present all that statements in one example
+        var score = 65;//i take score 
+        var info;// information about result
+        if(score >=70 ){
+            info = "good"
+        }
+       else if (score < 70 && score > 50){
+           info = "medium"
+       }
+         else {  info = "bad"
+         };
+        console.log(info); //my score is 65 so it is medium score
+
+        /*example with switch
+         i like football very much,so i took footbal team and showed which Lega this team was belong to*/
+        var team = "Banants";//it is Armenian Football Team
+        var liga;
+        switch (team) 
+        {
+            case "Real Madrid" :
+                liga =  "LaLiga";
+                break;
+           case "Arsenal":
+        liga = "Primier Liga";
+        break;
+            case "Juventus":
+                liga =  "A seria";
+                break;
+                case "Barcelona" :
+                liga =  "LaLiga";
+                break;
+                case "Pyunik" :
+                liga =  "Armenian Team";
+                break;
+            default:
+            liga = "other"
+                break;
+                
+        }
+        console.log(liga);
+    </script>
+    
+</body>
+</html>
