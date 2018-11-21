@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     //1st variant:
+         
+       for(var i = 0;i <= 100; i++){
+         if(i%5==0||i%6==0){
+             
+         };
+              if(i%5==0){
+               var  z= i*2;
+             }
+             if(i%6==0){
+                var z= i+2;
+
+}
+console.log(z);
+       }
+       //2 nd variant:<<continue>> when i%5==0 
+       for(var i = 0;i <= 100; i++){
+         if(i%5==0||i%6==0){
+             
+         };
+              if(i%5==0){
+               continue;
+             }
+             if(i%6==0){
+                var z= i+2;
+
+}
+console.log(z);
+       }  
+    </script>
+</body>
+</html>
