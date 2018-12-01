@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>String</title>
+</head>
+<body>
+   <script>
+//     //    function y(param) {
+//     //        return String(param.toUppercase(indexof(0)))
+//     //        console.log(param)
+//     //    }
+//     //     console.log(y("ss"));
+       
+//        function y(param){
+//  var index = 0;
+// var res =String(param.substring(0))
+
+// console.log(res.toUpperCase(param.charAt(0)));
+// }
+// // y("agag dsd ddx")
+// // for( var key in res){
+// //    console.log(res[key]);
+// // }
+// // }
+
+// console.log(y("anahit","sahsah"));
+
+
+// function titleCase(str) {
+//   str = String(str.toLowerCase().split(' '));
+//   console.log(str);
+// }
+// titleCase("ssss dds ")
+//   for (var i = 0; i < str.length; i++) {
+//     str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+//   }
+//   return str.join(' ');
+// }
+// console.log(titleCase("I'm a little tea pot"));
+// function x(param){
+//     param = String(param.toLowerCase().split(" "));
+ 
+
+// for(var i = 0; i < param.length; i++){
+//     param[i]= param[i].charAt(0).toUpperCase() + param[i].slice(1);
+// }
+// return param.join();
+// }
+// console.log( x ("i am anahit"));
+// function y(param){
+// var res = " ";
+// var x = param.toLowerCase().split(" ")
+// for(var i = 0; i < x.length; i++){
+// res = res + x[i].substring(0,1).toUpperCase() + x[i].substring(1)+ " ";
+// }
+// return res;
+// }
+// console.log(y("i am anahit"));
+// function sentenceCase(str){
+// var low = str.toLowerCase().split(' ');
+// var res = '';
+// for (var i = 0; i < low.length; i++) {
+// res += low[i].substring(0, 1).toUpperCase() + low[i].substring(1) + ' ';
+// }
+// return res;
+// };
+// console.log(sentenceCase('PHP exercises. python exercises.'));
+
+function changeExpression(parm){
+          var str = parm.split(" ");
+        for(var key in str){
+           str[key] = str[key][0].toUpperCase()+ str[key].substring(1);
+
+     }
+        var newExpression = str.join(" ");
+           return newExpression;
+}
+    console.log(changeExpression("How are you doing today?"));
+   </script> 
+</body>
+</html>
